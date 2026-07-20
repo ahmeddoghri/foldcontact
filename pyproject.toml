@@ -1,0 +1,13 @@
+[project]
+name = "foldcontact"
+version = "0.1.0"
+description = "Protein sequence infilling that has to satisfy the contact map, not just look protein-ish."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Ahmed Doghri"}]
+keywords = ["machine-learning", "research", "bioinformatics", "benchmark"]
+
+[project.urls]
+Homepage = "https://adoghri.com"
+Repository = "https://github.com/ahmeddoghri/foldcontact"
