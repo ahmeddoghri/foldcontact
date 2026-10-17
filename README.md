@@ -1,5 +1,9 @@
 # foldcontact
 
+[![tests](https://github.com/ahmeddoghri/foldcontact/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmeddoghri/foldcontact/actions/workflows/tests.yml) [![case study](https://img.shields.io/badge/case%20study-adoghri.com-e0703e)](https://adoghri.com/project-34.html)
+
+![foldcontact](docs/cover.jpg)
+
 **Protein sequence infilling that has to satisfy the contact map, not just look protein-ish.**
 
 Autocomplete for protein sequences is easy to fake. Fill in the missing residues with anything from the same rough chemical family and it "looks" plausible to a glance — hydrophobic next to hydrophobic, charged next to charged, no alarms, no red flags. What it doesn't do is check whether the residue you just placed is actually supposed to touch the residue across the fold from it. foldcontact is the difference between filling in a crossword with real words and filling it in with words that merely fit the letter count.
